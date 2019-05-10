@@ -1,0 +1,34 @@
+.days-sec {
+    height: 260px;;
+    /* padding-bottom: 33px; */
+  }
+  .day1 {
+    background: rgb(255, 255, 255, 0.15);
+    height: 80px;
+    margin-bottom: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+    margin-left: 25px;
+    border-radius: 5px;
+  }
+  .day1 h2{
+    margin-top: 25px;
+  }
+  .day1 i{
+    margin-top: 20px;
+    font-size: 40px;
+  }
+  .day-col{
+    width: 50%;
+  }
+  .icon-col{
+    width: 20%;
+  }
+  .value-col{
+    width: 30%;
+    text-align: right;
+  }
+  

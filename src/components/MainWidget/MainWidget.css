@@ -1,0 +1,90 @@
+/* -------------- main-widget -------------- */
+.main-widget{
+    margin-top: 26px;
+    margin-bottom: 5px;
+    height: 200px;
+    background: rgb(255, 255, 255, 0.15);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+    border-radius: 10px;
+  }
+  .main-widget h1{
+    font-size: 90px;
+    font-weight: 400;
+    margin: 0;
+  }
+  .main-widget h2{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  .main-widget span{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+  }
+  .img-styles{
+    font-size: 75px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .weather-icon-sec{
+    text-align: center;
+  }
+  /* -------------- sub-widget -------------- */
+.sub-widget{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 153px;
+  }
+  .humidity-sec, .wind-sec {
+    display: flex;
+    background: rgb(255, 255, 255, 0.15);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 50%;
+  }
+  .humidity-sec {
+    margin-right: 5px;
+  }
+  .humidity-sec h2, .wind-sec h2{
+    font-size: 40px;
+  }
+  .sub-icon-sec i{
+    font-size: 30px;
+  }
+  .sub-icon-sec h3{
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .sub-icon-sec{
+    text-align: center;
+    margin-left: 10px;
+  }
+  .wind-value{
+    display: flex;
+  }
+  .wind-value span{
+    padding-top: 22px;
+    margin-left: 5px;
+  }
+  .value-sec, .sub-icon-sec{
+    width: 50%;
+  }
+  .weather-value-sec{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .weather-icon-sec{
+    padding-right: 10px;
+    padding-left: 10px;
+  }
